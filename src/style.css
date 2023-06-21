@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #282D35;
+  margin: 0;
+}
+
+.nav-bar {
+  align-items: center;
+  background: #21222A;
+  display: flex;
+  height: 90px;
+  padding: 30px 25px;
+}
+
+.nav-logo {
+  height: 28.93px;
+  width: 28.93px;
+}
+
+.nav-title { 
+  color: #61DAFB;
+  font-family: 'Inter', sans-serif;
+  font-size: 22.253px;
+  font-weight: 700;
+  letter-spacing: -1.113px;
+  margin: 0 auto 0 6px;
+}
+
+.nav-subtitle {
+  color: #DEEBF8;
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0;
+  text-align: right;
+}
+
+.main-content {
+  background-image: url("./images/reactjs-icon-large.png");
+  background-position: right 75%;
+  background-repeat: no-repeat;
+  color: #FFFFFF;
+  padding: 57px 27px;
+}
+
+.main-content__title {
+  font-size: 39.06px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  letter-spacing: -1.953px;
+  margin: 0 0 36px 0;
+}
+
+.main-content__list {
+  margin: 0;
+  max-width: 400px;
+}
+
+.main-content__list-item {
+  font-size: 16px;
+  font-family: 'Inter', sans-serif;
+  line-height: 19px;
+  padding: 10px 0;
+}
+
+.main-content__list-item::marker {
+  color: #61DAFB;
+  font-size: 1.4rem;
+}
