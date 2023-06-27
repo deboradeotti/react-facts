@@ -3,4 +3,6 @@
 
 Study project of a static page built using React.
 
+From [this course](https://www.youtube.com/watch?v=bMknfKXIFA8).
+
 ![image](https://github.com/deboradeotti/react-facts/assets/81835864/669dbad1-ea50-4bec-ac4c-dc0db90f2336)
