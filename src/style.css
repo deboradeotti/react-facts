@@ -3,16 +3,24 @@
 }
 
 body {
-  background: #282D35;
   margin: 0;
 }
 
+/* NAV */
+
 .nav-bar {
   align-items: center;
-  background: #21222A;
+  background-color: #ffffff;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
   display: flex;
   height: 90px;
   padding: 30px 25px;
+  position: relative;
+  z-index: 1;
+}
+
+.nav-bar.dark {
+  background-color: #21222A;
 }
 
 .nav-logo {
@@ -29,21 +37,84 @@ body {
   margin: 0 auto 0 6px;
 }
 
-.nav-subtitle {
-  color: #DEEBF8;
-  font-family: 'Inter', sans-serif;
-  font-size: 16px;
-  font-weight: 600;
-  margin: 0;
-  text-align: right;
+.toggler {
+  display: flex;
+  align-items: center;
 }
 
+.toggler p {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.toggler__slider {
+  width: 25px;
+  height: 13px;
+  background-color: #2B283A;
+  border-radius: 2rem;
+  margin-inline: 7px;
+  cursor: pointer;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border: 1px solid #000;
+  box-sizing: content-box;
+}
+
+.nav-bar.dark .toggler__slider {
+  border-color: #ffffff;
+  background-color: #F5F5F5;
+}
+
+.toggler__slider--circle {
+  height: 13px;
+  width: 13px;
+  background-color: #ffffff;
+  border-radius: 50%;
+}
+
+.nav-bar.dark .toggler__slider--circle {
+  background-color: #000;
+}
+
+.toggler__light {
+  color: #2B283A;
+  font-family: 'Inter', sans-serif;
+}
+
+.nav-bar.dark .toggler__light {
+  color: #918E9B;
+}
+
+.toggler__dark {
+  color: #D5D4D8;
+  font-family: 'Inter', sans-serif;
+}
+
+.nav-bar.dark .toggler-dark {
+  color: #FFFFFF;
+}
+
+.nav-bar.dark .toggler__slider {
+  justify-content: flex-end;
+}
+
+/* MAIN */
+
 .main-content {
-  background-image: url("./images/reactjs-icon-large.png");
+  background-color: #ffffff;
+  background-image: url("./images/react-icon-light.png");
   background-position: right 75%;
   background-repeat: no-repeat;
-  color: #FFFFFF;
+  color: #2B283A;
+  height: calc(100vh - 90px);
   padding: 57px 27px;
+}
+
+.main-content.dark {
+  background-color: #282D35;
+  background-image: url("./images/react-icon-dark.png");
+  color: #ffffff;
 }
 
 .main-content__title {
