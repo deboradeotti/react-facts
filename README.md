@@ -5,4 +5,5 @@ Study project of a [static page](https://deboradeotti.github.io/react-facts/) wi
 
 From [this course](https://www.youtube.com/watch?v=bMknfKXIFA8).
 
-![image](https://github.com/deboradeotti/react-facts/assets/81835864/669dbad1-ea50-4bec-ac4c-dc0db90f2336)
+![image](https://github.com/deboradeotti/react-facts/assets/81835864/73fdf00b-6544-4ee2-80fe-e2c59e02a334)
+
